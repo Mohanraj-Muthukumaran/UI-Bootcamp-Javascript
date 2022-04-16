@@ -21,7 +21,6 @@ const compare = (object1, object2) => {
                             continue;
                         }
                         else if(typeof object1[key] === 'object' && typeof object2[key] === 'object'){
-                            console.log(JSON.stringify(object1));
                             if(JSON.stringify(object1[key]) === JSON.stringify(object2[key])){
                                 continue;
                             }
