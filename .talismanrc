@@ -2,3 +2,8 @@ fileignoreconfig:
 - filename: object.js
   checksum: d8bb01275da3e1e8433e334153f17491fa294944a1f223208f6cf736c8e503f3
 version: ""
+
+fileignoreconfig:
+- filename: json.js
+  checksum: e61130c693164e868264e85e8d5ec88d3c5223883c121d78e5252a8710a073d9
+version: ""

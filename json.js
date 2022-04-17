@@ -14,7 +14,7 @@ const stringify = (object) => {
         }
 
         result += ('"'+key+'"') + ':';
-        
+
         if(typeof object[key] === 'object'){
             result += stringify(object[key]);
         }
@@ -32,6 +32,9 @@ const object = {
     b: 2,
     c: {
         d: 'Hello :)',
+        e: {
+            f: 'World',
+        },
     },
 };
 
